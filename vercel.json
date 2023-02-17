@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    {
+      "source": "/us/en/blog/:match*",
+      "destination": "https://turbocontent-flixed-blog-git-dev-flixed.vercel.app/us/en/blog/:match*"
+    },
+    {
+      "source": "/us/en/sports/:match*",
+      "destination": "https://turbocontent-flixed-sports-git-dev-flixed.vercel.app/us/en/sports/:match*"
+    },
+    {
+      "source": "/us/en/movies/:match*",
+      "destination": "https://turbocontent-flixed-movies-git-dev-flixed.vercel.app/us/en/movies/:match*"
+    },
+    {
+      "source": "/us/en/shows/:match*",
+      "destination": "https://turbocontent-flixed-shows-git-dev-flixed.vercel.app/us/en/shows/:match*"
+    },
+    {
+      "source": "/top-movies-and-shows/:match*",
+      "destination": "https://turbocontent-flixed-top-movies-shows-git-dev-flixed.vercel.app/:match*"
+    },
+    {
+      "source": "/us/en/channels/:match*",
+      "destination": "https://turbocontent-flixed-channels-git-dev-flixed.vercel.app/:match*"
+    },
+    {
+      "source": "/us/en/channels/:match*",
+      "destination": "https://turbocontent-flixed-channels-git-dev-flixed.vercel.app/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://turbocontent-flixed-home-git-dev-flixed.vercel.app/:match*"
+    }
+  ]
+}
